@@ -17,4 +17,4 @@ print("Number of Faces found = " + str(len(faces)))
 
 cv.imshow('Image', img)
 cv.waitKey()
-cv.destroyAllWindows(
+cv.destroyAllWindows()
