@@ -88,8 +88,8 @@ for (q, i) in enumerate(np.arange(0, len(questionCnts), 5)):
     cv2.drawContours(paper, [cnts[k]], -1, color, 3)
 
 score = (correct / 5.0) * 100
-print("[INFO] score: %.2f" % score)
-cv2.putText(paper, "%.2f" % score, (10, 30),
+print("[INFO] score: %.2f" % score + "%")
+cv2.putText(paper, "%.2f" % score + "%", (10, 30),
             cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
 
 cv2.imshow("Thres", thresh)
