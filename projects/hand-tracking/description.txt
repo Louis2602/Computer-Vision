@@ -1,0 +1,7 @@
+Hand Tracking:
+- Palm Dectetion
+- Hand Landmarks
+
+Library required:
+- mediapipe
+- opencv
